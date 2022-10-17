@@ -12,7 +12,7 @@ h1 {
 
 }
 
-a {
+.contact {
     /*float: left;*/
     display: block;
     color: black;
@@ -23,10 +23,10 @@ a {
     /*border-right: 1px solid white;*/
 }
 
-a:hover {
+.contact:hover {
     background-color: gray;
     color: black;
-    
+
 }
 
 
@@ -37,13 +37,11 @@ IMG {
 }
 
 footer {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #0213c9;
-    position: fixed;
+    overflow: visible;
+    background-color: grey;
     left: 0;
     bottom: 0;
+    width: 250%;
 }
 
 /*form {
@@ -84,4 +82,13 @@ fieldset {
 .center {
   text-align: center;
   width: 100%;
+}
+
+.email {
+  color: #FFE81F;
+}
+
+.foot{
+  width: 500px;
+
 }
