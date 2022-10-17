@@ -24,8 +24,9 @@ a {
 }
 
 a:hover {
-    background-color: white;
+    background-color: gray;
     color: black;
+    
 }
 
 
