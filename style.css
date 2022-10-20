@@ -1,7 +1,19 @@
+body{ min-height:100vh; margin:0; position:relative; }
+header{ min-height:50px; background:lightcyan; }
+
+
 body {
     background-color: silver;
-    height: 100%;
+    height: auto;
+    position: relative;
 }
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
 img{
   width: 150px;
 }
@@ -37,11 +49,10 @@ IMG {
 }
 
 footer {
-    overflow: visible;
-    background-color: grey;
-    left: 0;
-    bottom: 0;
-    width: 250%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
 }
 
 /*form {
@@ -89,6 +100,6 @@ fieldset {
 }
 
 .foot{
-  width: 500px;
+  width: auto;
 
 }
