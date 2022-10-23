@@ -35,22 +35,34 @@ h1 {
   padding-bottom: 10px;
 }
 
+button{
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button:hover{
+  background-color: gray;
+}
+
 .contact {
     display: block;
     color: black;
-    text-align: center;
-    width: 155px;
+    text-align: justify;
+    width: 250px;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.contact:hover {
-    background-color: gray;
-    color: black;
-
+.fa-circle{
+color: #0213c9;
 }
 
-/*end of contact*/
+.fa-facebook{
+  border-radius: 50%
+}
+
+/*end of contact section*/
 
 
 .mySlides{
